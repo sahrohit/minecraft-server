@@ -62,3 +62,25 @@
 [05:26:09] [User Authenticator #3/INFO]: UUID of player BoredPepper is 3e5fce69-6437-313c-a978-2b2802896076
 [05:26:09] [Server thread/INFO]: BoredPepper joined the game
 [05:26:09] [Server thread/INFO]: BoredPepper[/27.34.22.179:41571] logged in with entity id 2470 at ([world]417.89603297460525, 63.0, -266.7655768122204)
+[05:28:39] [Server thread/INFO]: BoredPepper lost connection: Disconnected
+[05:28:39] [Server thread/INFO]: BoredPepper left the game
+[05:34:21] [User Authenticator #4/INFO]: UUID of player BoredPepper is 3e5fce69-6437-313c-a978-2b2802896076
+[05:34:21] [Server thread/INFO]: BoredPepper joined the game
+[05:34:21] [Server thread/INFO]: BoredPepper[/27.34.22.179:20240] logged in with entity id 2929 at ([world]412.4356863298511, 69.0, -313.15711197243985)
+[05:34:27] [Server thread/INFO]: BoredPepper issued server command: /ping
+[05:34:29] [Server thread/INFO]: BoredPepper lost connection: Disconnected
+[05:34:29] [Server thread/INFO]: BoredPepper left the game
+[05:47:03] [Server thread/INFO]: Stopping the server
+[05:47:03] [Server thread/INFO]: Stopping server
+[05:47:03] [Server thread/INFO]: Saving players
+[05:47:03] [Server thread/INFO]: Saving worlds
+[05:47:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:47:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[05:47:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[05:47:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:47:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:47:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:47:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[05:47:03] [Server thread/INFO]: Flushing Chunk IO
+[05:47:03] [Server thread/INFO]: Closing Thread Pool
+[05:47:03] [Server thread/INFO]: Closing Server
