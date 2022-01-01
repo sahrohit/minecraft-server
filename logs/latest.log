@@ -1,86 +1,418 @@
-[04:51:57] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[04:51:57] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[04:51:57] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
-[04:51:58] [Worker-Main-1/INFO]: Loaded 7 recipes
-[04:52:01] [Server thread/INFO]: Starting minecraft server version 1.18.1
-[04:52:01] [Server thread/INFO]: Loading properties
-[04:52:01] [Server thread/INFO]: This server is running Paper version git-Paper-115 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: 2d458ee)
-[04:52:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[04:52:01] [Server thread/INFO]: Using 4 threads for Netty based IO
-[04:52:01] [Server thread/INFO]: Default game type: SURVIVAL
-[04:52:01] [Server thread/INFO]: Generating keypair
-[04:52:01] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:52:01] [Server thread/INFO]: Using epoll channel type
-[04:52:01] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[04:52:01] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[04:52:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04:52:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[04:52:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04:52:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[04:52:01] [Server thread/INFO]: Preparing level "world"
-[04:52:02] [Server thread/INFO]: ---- Migration of old nether folder required ----
-[04:52:02] [Server thread/INFO]: Unfortunately due to the way that Minecraft implemented multiworld support in 1.6, Bukkit requires that you move your nether folder to a new location in order to operate correctly.
-[04:52:02] [Server thread/INFO]: We will move this folder for you, but it will mean that you need to move it back should you wish to stop using Bukkit in the future.
-[04:52:02] [Server thread/INFO]: Attempting to move world/DIM-1 to world_nether/DIM-1...
-[04:52:02] [Server thread/INFO]: Success! To restore nether in the future, simply move world_nether/DIM-1 to world/DIM-1
-[04:52:02] [Server thread/INFO]: ---- Migration of old nether folder complete ----
-[04:52:03] [Server thread/INFO]: ---- Migration of old the_end folder required ----
-[04:52:03] [Server thread/INFO]: Unfortunately due to the way that Minecraft implemented multiworld support in 1.6, Bukkit requires that you move your the_end folder to a new location in order to operate correctly.
-[04:52:03] [Server thread/INFO]: We will move this folder for you, but it will mean that you need to move it back should you wish to stop using Bukkit in the future.
-[04:52:03] [Server thread/INFO]: Attempting to move world/DIM1 to world_the_end/DIM1...
-[04:52:03] [Server thread/INFO]: Success! To restore the_end in the future, simply move world_the_end/DIM1 to world/DIM1
-[04:52:03] [Server thread/INFO]: ---- Migration of old the_end folder complete ----
-[04:52:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[04:52:04] [Server thread/INFO]: Preparing spawn area: 0%
-[04:52:04] [Server thread/INFO]: Preparing spawn area: 0%
-[04:52:04] [Server thread/INFO]: Preparing spawn area: 0%
-[04:52:04] [Server thread/INFO]: Preparing spawn area: 0%
-[04:52:05] [Server thread/INFO]: Preparing spawn area: 0%
-[04:52:05] [Server thread/INFO]: Preparing spawn area: 0%
-[04:52:06] [Server thread/INFO]: Preparing spawn area: 0%
-[04:52:06] [Server thread/INFO]: Preparing spawn area: 0%
-[04:52:06] [Server thread/INFO]: Time elapsed: 3681 ms
-[04:52:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[04:52:07] [Server thread/INFO]: Time elapsed: 385 ms
-[04:52:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[04:52:07] [Server thread/INFO]: Time elapsed: 384 ms
-[04:52:07] [Server thread/INFO]: Running delayed init tasks
-[04:52:07] [Server thread/INFO]: Done (6.740s)! For help, type "help"
-[04:52:07] [Server thread/INFO]: Timings Reset
-[04:52:19] [User Authenticator #1/INFO]: UUID of player BoredPepper is 3e5fce69-6437-313c-a978-2b2802896076
-[04:52:20] [Server thread/INFO]: BoredPepper joined the game
-[04:52:21] [Server thread/INFO]: BoredPepper[/27.34.22.179:4252] logged in with entity id 98 at ([world]413.02299079507605, 69.0, -312.63844851421516)
-[04:52:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5033ms or 100 ticks behind
-[04:54:17] [Server thread/INFO]: BoredPepper lost connection: Disconnected
-[04:54:17] [Server thread/INFO]: BoredPepper left the game
-[04:58:58] [User Authenticator #2/INFO]: UUID of player BoredPepper is 3e5fce69-6437-313c-a978-2b2802896076
-[04:58:59] [Server thread/INFO]: BoredPepper joined the game
-[04:58:59] [Server thread/INFO]: BoredPepper[/27.34.22.179:8103] logged in with entity id 901 at ([world]410.6423713781191, 62.07326432466507, -292.3300297879085)
-[04:59:04] [Server thread/INFO]: BoredPepper issued server command: /plugins
-[05:12:57] [Server thread/INFO]: BoredPepper lost connection: Disconnected
-[05:12:57] [Server thread/INFO]: BoredPepper left the game
-[05:26:09] [User Authenticator #3/INFO]: UUID of player BoredPepper is 3e5fce69-6437-313c-a978-2b2802896076
-[05:26:09] [Server thread/INFO]: BoredPepper joined the game
-[05:26:09] [Server thread/INFO]: BoredPepper[/27.34.22.179:41571] logged in with entity id 2470 at ([world]417.89603297460525, 63.0, -266.7655768122204)
-[05:28:39] [Server thread/INFO]: BoredPepper lost connection: Disconnected
-[05:28:39] [Server thread/INFO]: BoredPepper left the game
-[05:34:21] [User Authenticator #4/INFO]: UUID of player BoredPepper is 3e5fce69-6437-313c-a978-2b2802896076
-[05:34:21] [Server thread/INFO]: BoredPepper joined the game
-[05:34:21] [Server thread/INFO]: BoredPepper[/27.34.22.179:20240] logged in with entity id 2929 at ([world]412.4356863298511, 69.0, -313.15711197243985)
-[05:34:27] [Server thread/INFO]: BoredPepper issued server command: /ping
-[05:34:29] [Server thread/INFO]: BoredPepper lost connection: Disconnected
-[05:34:29] [Server thread/INFO]: BoredPepper left the game
-[05:47:03] [Server thread/INFO]: Stopping the server
-[05:47:03] [Server thread/INFO]: Stopping server
-[05:47:03] [Server thread/INFO]: Saving players
-[05:47:03] [Server thread/INFO]: Saving worlds
-[05:47:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[05:47:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[05:47:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[05:47:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[05:47:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05:47:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05:47:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[05:47:03] [Server thread/INFO]: Flushing Chunk IO
-[05:47:03] [Server thread/INFO]: Closing Thread Pool
-[05:47:03] [Server thread/INFO]: Closing Server
+[05:57:43] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[05:57:43] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
+[05:57:44] [Worker-Main-1/INFO]: Loaded 7 recipes
+[05:57:46] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[05:57:46] [Server thread/INFO]: Loading properties
+[05:57:46] [Server thread/INFO]: This server is running Paper version git-Paper-115 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: 2d458ee)
+[05:57:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:57:46] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:57:46] [Server thread/INFO]: Default game type: SURVIVAL
+[05:57:46] [Server thread/INFO]: Generating keypair
+[05:57:47] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:57:47] [Server thread/INFO]: Using epoll channel type
+[05:57:47] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[05:57:47] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[05:57:48] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_18_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[05:57:55] [Server thread/WARN]: Legacy plugin OnePlayerSleep v1.3 does not specify an api-version.
+[05:57:55] [Server thread/INFO]: [SpigotPing] Loading SpigotPing v2.6
+[05:57:55] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.1.10
+[05:57:55] [Server thread/INFO]: [OnePlayerSleep] Loading OnePlayerSleep v1.3
+[05:57:55] [Server thread/INFO]: [DropHeads] Loading DropHeads v3.6.14
+[05:57:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:57:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:57:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:57:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:57:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:57:55] [Server thread/INFO]: Preparing level "world"
+[05:57:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:57:57] [Server thread/INFO]: Preparing spawn area: 0%
+[05:57:57] [Server thread/INFO]: Preparing spawn area: 0%
+[05:57:57] [Server thread/INFO]: Preparing spawn area: 0%
+[05:57:58] [Server thread/INFO]: Preparing spawn area: 0%
+[05:57:58] [Server thread/INFO]: Preparing spawn area: 0%
+[05:57:59] [Server thread/INFO]: Preparing spawn area: 0%
+[05:57:59] [Server thread/INFO]: Preparing spawn area: 0%
+[05:58:00] [Server thread/INFO]: Preparing spawn area: 0%
+[05:58:00] [Server thread/INFO]: Preparing spawn area: 0%
+[05:58:00] [Server thread/INFO]: Time elapsed: 4168 ms
+[05:58:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[05:58:01] [Server thread/INFO]: Preparing spawn area: 0%
+[05:58:01] [Server thread/INFO]: Preparing spawn area: 0%
+[05:58:02] [Server thread/INFO]: Preparing spawn area: 0%
+[05:58:02] [Server thread/INFO]: Preparing spawn area: 0%
+[05:58:03] [Server thread/INFO]: Preparing spawn area: 0%
+[05:58:03] [Server thread/INFO]: Preparing spawn area: 0%
+[05:58:03] [Server thread/INFO]: Preparing spawn area: 0%
+[05:58:04] [Server thread/INFO]: Time elapsed: 3092 ms
+[05:58:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[05:58:04] [Server thread/INFO]: Preparing spawn area: 0%
+[05:58:04] [Server thread/INFO]: Preparing spawn area: 0%
+[05:58:05] [Server thread/INFO]: Preparing spawn area: 0%
+[05:58:05] [Server thread/INFO]: Preparing spawn area: 0%
+[05:58:06] [Server thread/INFO]: Preparing spawn area: 0%
+[05:58:06] [Server thread/INFO]: Preparing spawn area: 0%
+[05:58:06] [Server thread/INFO]: Time elapsed: 2760 ms
+[05:58:06] [Server thread/INFO]: [SpigotPing] Enabling SpigotPing v2.6
+[05:58:06] [Server thread/INFO]: [SpigotPing] TabList is enabled, task added with a delay of 5 second/s.
+[05:58:06] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.1.10
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Using PaperSkinRefresher
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_18_R1, using PaperSkinRefresher.
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value PREFIX to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_CLEAR to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_CLEAR_OTHER to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_UPDATE to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_UPDATE_OTHER to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_SET to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_SET_OTHER to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_SET_OTHER_URL to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_RELOAD to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_STATUS to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_DROP to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_PROPS to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_APPLY_SKIN to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_CREATECUSTOM to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_DEFAULTCOMMAND to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_SKINSET to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_SKINSET_OTHER to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_SKINURL to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_SKINUPDATE_OTHER to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_SKINCLEAR_OTHER to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value COMPLETIONS_SKIN to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value COMPLETIONS_SKINNAME to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value COMPLETIONS_SKINURL to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value PLAYER_HAS_NO_PERMISSION_SKIN to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value PLAYER_HAS_NO_PERMISSION_URL to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_DISABLED to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINURL_DISALLOWED to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value NOT_PREMIUM to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value INVALID_PLAYER to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_COOLDOWN to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_CHANGE_SUCCESS to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_CLEAR_SUCCESS to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_CLEAR_ISSUER to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value MS_UPDATING_SKIN to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value SUCCESS_CREATE_SKIN to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value SUCCESS_UPDATING_SKIN to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value SUCCESS_UPDATING_SKIN_OTHER to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_UPDATING_SKIN to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_UPDATING_URL to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_UPDATING_CUSTOMSKIN to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_INVALID_URLSKIN to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_MS_FULL to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_MS_GENERIC to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value GENERIC_ERROR to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value WAIT_A_MINUTE to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_NO_SKIN to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_OPEN to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_TITLE_NEW to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_NEXT_PAGE to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_PREVIOUS_PAGE to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_REMOVE_SKIN to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_SELECT_SKIN to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value ADMIN_SET_SKIN to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value DATA_DROPPED to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value STATUS_OK to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value ALT_API_FAILED to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value MS_API_FAILED to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value NO_SKIN_DATA to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value RELOAD to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value OUTDATED to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value SR_LINE to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] Saving new config value CUSTOM_HELP_IF_ENABLED to messages.yml
+[05:58:07] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[05:58:10] [Server thread/INFO]: [OnePlayerSleep] Enabling OnePlayerSleep v1.3*
+[05:58:10] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.6.14
+[05:58:10] [Server thread/INFO]: [DropHeads] Could not locate configuration file!
+[05:58:10] [Server thread/INFO]: [DropHeads] Generating a new one with default settings.
+[05:58:11] [Server thread/INFO]: Running delayed init tasks
+[05:58:11] [Server thread/INFO]: Done (24.510s)! For help, type "help"
+[05:58:11] [Server thread/INFO]: Timings Reset
+[05:58:11] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:58:11] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[05:58:11] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[05:58:11] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
+[05:58:11] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[05:58:11] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[05:58:11] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:58:11] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     Current version: 14.1.10
+[05:58:11] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
+[05:58:11] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[06:00:10] [User Authenticator #1/INFO]: UUID of player Rudeje11yfish is 1c1a60c4-c97d-398e-9b6e-f8cf871f7a9c
+[06:00:10] [Server thread/INFO]: Rudeje11yfish joined the game
+[06:00:10] [Server thread/INFO]: Rudeje11yfish[/185.107.80.220:54518] logged in with entity id 164 at ([world]337.38714700857435, -52.0, -44.383747846257656)
+[06:00:48] [User Authenticator #1/INFO]: UUID of player Rudeje11yfish is 1c1a60c4-c97d-398e-9b6e-f8cf871f7a9c
+[06:00:48] [Server thread/INFO]: Rudeje11yfish lost connection: You logged in from another location
+[06:00:48] [Server thread/INFO]: Rudeje11yfish left the game
+[06:00:48] [Server thread/INFO]: Rudeje11yfish joined the game
+[06:00:48] [Server thread/INFO]: Rudeje11yfish[/136.232.19.2:11575] logged in with entity id 337 at ([world]368.30045434528665, -52.0, -44.62205659088528)
+[06:01:36] [Server thread/INFO]: Rudeje11yfish issued server command: /plugins
+[06:03:35] [User Authenticator #2/INFO]: UUID of player BoredPepper is 3e5fce69-6437-313c-a978-2b2802896076
+[06:03:36] [Server thread/INFO]: BoredPepper joined the game
+[06:03:36] [Server thread/INFO]: BoredPepper[/27.34.22.179:15394] logged in with entity id 643 at ([world]412.4356863298511, 69.0, -313.15711197243985)
+[06:04:07] [Server thread/INFO]: BoredPepper lost connection: Disconnected
+[06:04:07] [Server thread/INFO]: BoredPepper left the game
+[06:05:27] [User Authenticator #3/INFO]: UUID of player BoredPepper is 3e5fce69-6437-313c-a978-2b2802896076
+[06:05:27] [Server thread/INFO]: BoredPepper joined the game
+[06:05:27] [Server thread/INFO]: BoredPepper[/27.34.22.179:10772] logged in with entity id 1001 at ([world]410.76475445483163, 69.0, -314.0059832832124)
+[06:06:47] [Server thread/INFO]: BoredPepper lost connection: Disconnected
+[06:06:47] [Server thread/INFO]: BoredPepper left the game
+[06:07:14] [User Authenticator #4/INFO]: UUID of player BoredPepper is 3e5fce69-6437-313c-a978-2b2802896076
+[06:07:15] [Server thread/INFO]: BoredPepper joined the game
+[06:07:15] [Server thread/INFO]: BoredPepper[/27.34.22.179:65457] logged in with entity id 1443 at ([world]410.16991341881675, 69.0, -313.1163762178796)
+[06:08:21] [User Authenticator #5/INFO]: UUID of player Kailash  is 11eb6f74-6fa3-3132-803b-82e5f4f37667
+[06:08:21] [Server thread/INFO]: Kailash  joined the game
+[06:08:21] [Server thread/INFO]: Kailash [/89.38.99.188:34538] logged in with entity id 2033 at ([world]339.55745973736293, -52.0, -44.56553089622277)
+[06:09:00] [User Authenticator #5/INFO]: UUID of player Kailash  is 11eb6f74-6fa3-3132-803b-82e5f4f37667
+[06:09:00] [Server thread/INFO]: Kailash  lost connection: You logged in from another location
+[06:09:00] [Server thread/INFO]: Kailash  left the game
+[06:09:00] [Server thread/INFO]: Kailash  joined the game
+[06:09:00] [Server thread/INFO]: Kailash [/136.232.19.2:61350] logged in with entity id 2280 at ([world]339.55745973736293, -52.0, -44.56553089622277)
+[06:17:12] [Server thread/WARN]: Boat (vehicle of Kailash ) moved wrongly! 0.2629570742170497
+[06:23:14] [Server thread/INFO]: Kailash  hit the ground too hard
+[06:30:53] [Server thread/INFO]: Kailash  has made the advancement [Ice Bucket Challenge]
+[06:33:59] [Server thread/WARN]: Boat (vehicle of BoredPepper) moved wrongly! 0.3807313948076043
+[06:33:59] [Server thread/WARN]: Boat (vehicle of BoredPepper) moved wrongly! 0.4861539094765419
+[06:33:59] [Server thread/WARN]: Boat (vehicle of BoredPepper) moved wrongly! 0.2639917230552129
+[06:33:59] [Server thread/WARN]: Boat (vehicle of BoredPepper) moved wrongly! 0.27609927957188063
+[06:33:59] [Server thread/WARN]: Boat (vehicle of BoredPepper) moved wrongly! 0.562904986209972
+[06:33:59] [Server thread/WARN]: Boat (vehicle of BoredPepper) moved wrongly! 0.29604445302770444
+[06:33:59] [Server thread/WARN]: Boat (vehicle of BoredPepper) moved wrongly! 0.303719539476937
+[06:33:59] [Server thread/WARN]: Boat (vehicle of BoredPepper) moved wrongly! 0.6134146485471632
+[06:33:59] [Server thread/WARN]: Boat (vehicle of BoredPepper) moved wrongly! 0.28324492204846763
+[06:33:59] [Server thread/WARN]: Boat (vehicle of BoredPepper) moved wrongly! 0.25925039040304654
+[06:33:59] [Server thread/WARN]: Boat (vehicle of BoredPepper) moved wrongly! 0.4548602582345964
+[06:33:59] [Server thread/WARN]: Boat (vehicle of BoredPepper) moved wrongly! 0.3203530035991733
+[06:37:55] [Server thread/INFO]: BoredPepper lost connection: Disconnected
+[06:37:55] [Server thread/INFO]: BoredPepper left the game
+[06:41:07] [User Authenticator #6/INFO]: UUID of player BoredPepper is 3e5fce69-6437-313c-a978-2b2802896076
+[06:41:07] [Server thread/INFO]: BoredPepper joined the game
+[06:41:07] [Server thread/INFO]: BoredPepper[/27.34.22.179:34504] logged in with entity id 24785 at ([world]-2079.2773031141755, 62.07326432466507, -198.3732362915623)
+[06:44:40] [Server thread/INFO]: BoredPepper lost connection: Disconnected
+[06:44:40] [Server thread/INFO]: BoredPepper left the game
+[06:45:13] [User Authenticator #7/INFO]: UUID of player BoredPepper is 3e5fce69-6437-313c-a978-2b2802896076
+[06:45:13] [Server thread/INFO]: BoredPepper joined the game
+[06:45:13] [Server thread/INFO]: BoredPepper[/27.34.22.179:8414] logged in with entity id 27683 at ([world]-2791.1148365665535, 59.568068664677654, -157.49071388517777)
+[06:50:56] [User Authenticator #8/INFO]: UUID of player Shroudyrowdy69 is 80cefebc-1b09-3757-9c8d-c1cd22189bc7
+[06:50:56] [Server thread/INFO]: Shroudyrowdy69 joined the game
+[06:50:57] [Server thread/INFO]: Shroudyrowdy69[/27.34.16.105:57738] logged in with entity id 32334 at ([world]-5.5, 64.0, -9.5)
+[06:54:24] [Async Chat Thread - #0/INFO]: <BoredPepper> e k chin hai
+[06:54:41] [Async Chat Thread - #0/INFO]: <Rudeje11yfish> lala
+[06:54:45] [Server thread/INFO]: BoredPepper lost connection: Disconnected
+[06:54:45] [Server thread/INFO]: BoredPepper left the game
+[06:54:51] [User Authenticator #9/INFO]: UUID of player BoredPepper is 3e5fce69-6437-313c-a978-2b2802896076
+[06:54:51] [Server thread/INFO]: BoredPepper joined the game
+[06:54:51] [Server thread/INFO]: BoredPepper[/27.34.22.179:46316] logged in with entity id 36646 at ([world]-3210.9758048725266, 63.0, 607.9368519900466)
+[06:57:22] [Server thread/INFO]: Shroudyrowdy69 has made the advancement [Acquire Hardware]
+[06:57:31] [Server thread/INFO]: Shroudyrowdy69 has made the advancement [Suit Up]
+[06:57:54] [Server thread/INFO]: Shroudyrowdy69 has made the advancement [Isn't It Iron Pick]
+[07:02:12] [Server thread/INFO]: Shroudyrowdy69 has made the advancement [Stone Age]
+[07:02:16] [Server thread/INFO]: Shroudyrowdy69 has made the advancement [Getting an Upgrade]
+[07:06:23] [Server thread/INFO]: Kailash  lost connection: Disconnected
+[07:06:23] [Server thread/INFO]: Kailash  left the game
+[07:06:31] [User Authenticator #10/INFO]: UUID of player Kailash  is 11eb6f74-6fa3-3132-803b-82e5f4f37667
+[07:06:31] [Server thread/INFO]: Kailash  joined the game
+[07:06:31] [Server thread/INFO]: Kailash [/136.232.19.2:30675] logged in with entity id 43368 at ([world]684.3000000119209, 98.0, 407.30000001192093)
+[07:15:56] [Server thread/INFO]: Shroudyrowdy69 has made the advancement [Monster Hunter]
+[07:17:33] [Server thread/INFO]: Rudeje11yfish has made the advancement [Ice Bucket Challenge]
+[07:20:35] [Server thread/INFO]: Shroudyrowdy69 has made the advancement [Not Today, Thank You]
+[07:25:42] [Server thread/INFO]: Rudeje11yfish has made the advancement [We Need to Go Deeper]
+[07:25:44] [Server thread/INFO]: Kailash  has made the advancement [We Need to Go Deeper]
+[07:26:17] [Server thread/INFO]: Rudeje11yfish has made the advancement [A Terrible Fortress]
+[07:26:20] [Server thread/INFO]: Kailash  has made the advancement [A Terrible Fortress]
+[07:29:31] [Server thread/INFO]: Shroudyrowdy69 has made the advancement [Sweet Dreams]
+[07:30:48] [Async Chat Thread - #1/INFO]: <Rudeje11yfish> discord k bhayo Dipson ?
+[07:31:01] [Async Chat Thread - #1/INFO]: <Shroudyrowdy69> ekchin ma aauchu
+[07:31:05] [Async Chat Thread - #1/INFO]: <Rudeje11yfish> lala
+[07:34:04] [Server thread/INFO]: Shroudyrowdy69 has made the advancement [We Need to Go Deeper]
+[07:34:26] [Server thread/INFO]: Shroudyrowdy69 has made the advancement [A Terrible Fortress]
+[07:35:34] [Server thread/INFO]: Shroudyrowdy69 was slain by Blaze
+[07:36:22] [Server thread/INFO]: Shroudyrowdy69 has made the advancement [Into Fire]
+[07:37:40] [Server thread/INFO]: Rudeje11yfish has made the advancement [Into Fire]
+[07:38:51] [Server thread/INFO]: Shroudyrowdy69 was slain by Wither Skeleton
+[07:39:00] [Server thread/INFO]: Kailash  has made the advancement [Not Today, Thank You]
+[07:39:06] [Server thread/INFO]: Kailash  has made the advancement [Into Fire]
+[07:39:58] [Server thread/INFO]: Shroudyrowdy69 was slain by Wither Skeleton
+[07:40:55] [Server thread/INFO]: Rudeje11yfish lost connection: Disconnected
+[07:40:55] [Server thread/INFO]: Rudeje11yfish left the game
+[07:41:01] [Server thread/INFO]: Kailash  lost connection: Disconnected
+[07:41:01] [Server thread/INFO]: Kailash  left the game
+[07:41:11] [Server thread/INFO]: Shroudyrowdy69 lost connection: Disconnected
+[07:41:11] [Server thread/INFO]: Shroudyrowdy69 left the game
+[07:41:51] [Server thread/INFO]: BoredPepper lost connection: Disconnected
+[07:41:51] [Server thread/INFO]: BoredPepper left the game
+[08:10:57] [User Authenticator #11/INFO]: UUID of player Rudeje11yfish is 1c1a60c4-c97d-398e-9b6e-f8cf871f7a9c
+[08:10:57] [Server thread/INFO]: Rudeje11yfish joined the game
+[08:10:57] [Server thread/INFO]: Rudeje11yfish[/136.232.19.2:39987] logged in with entity id 59348 at ([world]290.6958423150102, 63.875, 3.1817252774416174)
+[08:13:41] [User Authenticator #12/INFO]: UUID of player BoredPepper is 3e5fce69-6437-313c-a978-2b2802896076
+[08:13:41] [Server thread/INFO]: BoredPepper joined the game
+[08:13:41] [Server thread/INFO]: BoredPepper[/27.34.22.179:6646] logged in with entity id 60216 at ([world]-3202.8851569249196, 63.0, 594.4758511153466)
+[08:14:01] [Server thread/INFO]: BoredPepper lost connection: Disconnected
+[08:14:01] [Server thread/INFO]: BoredPepper left the game
+[08:14:09] [User Authenticator #12/INFO]: UUID of player BoredPepper is 3e5fce69-6437-313c-a978-2b2802896076
+[08:14:09] [Server thread/INFO]: BoredPepper joined the game
+[08:14:09] [Server thread/INFO]: BoredPepper[/27.34.22.179:64226] logged in with entity id 60539 at ([world]-3202.8851569249196, 63.0, 594.4758511153466)
+[08:14:24] [Server thread/INFO]: BoredPepper lost connection: Disconnected
+[08:14:24] [Server thread/INFO]: BoredPepper left the game
+[08:14:30] [Server thread/INFO]: Rudeje11yfish has made the advancement [Voluntary Exile]
+[08:29:23] [User Authenticator #13/INFO]: UUID of player Kailash  is 11eb6f74-6fa3-3132-803b-82e5f4f37667
+[08:29:23] [Server thread/INFO]: Kailash  joined the game
+[08:29:23] [Server thread/INFO]: Kailash [/136.232.19.2:39936] logged in with entity id 63822 at ([world]285.76037733097843, 64.0, 3.7172012866773136)
+[08:54:53] [User Authenticator #14/INFO]: UUID of player BoredPepper is 3e5fce69-6437-313c-a978-2b2802896076
+[08:54:53] [Server thread/INFO]: BoredPepper joined the game
+[08:54:53] [Server thread/INFO]: BoredPepper[/27.34.22.179:30833] logged in with entity id 68450 at ([world]-3213.275640069588, 63.0, 623.1199252303059)
+[09:11:22] [Server thread/INFO]: BoredPepper has made the advancement [We Need to Go Deeper]
+[09:12:35] [Server thread/INFO]: BoredPepper has made the advancement [Into Fire]
+[09:12:41] [Server thread/INFO]: BoredPepper has made the advancement [A Terrible Fortress]
+[09:16:05] [Server thread/INFO]: Rudeje11yfish has made the advancement [Not Today, Thank You]
+[09:17:22] [Server thread/INFO]: BoredPepper has made the advancement [Oh Shiny]
+[09:18:18] [Server thread/INFO]: Kailash  has made the advancement [Oh Shiny]
+[09:18:22] [Server thread/INFO]: BoredPepper was slain by Piglin
+[09:20:34] [Server thread/INFO]: Rudeje11yfish has made the advancement [Who is Cutting Onions?]
+[09:20:36] [Server thread/INFO]: Rudeje11yfish has made the advancement [Oh Shiny]
+[09:22:55] [Server thread/INFO]: BoredPepper lost connection: Timed out
+[09:22:55] [Server thread/INFO]: BoredPepper left the game
+[09:23:30] [Server thread/INFO]: Kailash  has made the advancement [Who is Cutting Onions?]
+[09:26:17] [Server thread/WARN]: Rudeje11yfish was kicked for floating too long!
+[09:26:17] [Server thread/INFO]: Rudeje11yfish lost connection: Flying is not enabled on this server
+[09:26:17] [Server thread/INFO]: Rudeje11yfish left the game
+[09:26:33] [Server thread/INFO]: Kailash  lost connection: Disconnected
+[09:26:33] [Server thread/INFO]: Kailash  left the game
+[09:27:34] [User Authenticator #15/INFO]: UUID of player Rudeje11yfish is 1c1a60c4-c97d-398e-9b6e-f8cf871f7a9c
+[09:27:34] [Server thread/INFO]: Rudeje11yfish joined the game
+[09:27:34] [Server thread/INFO]: Rudeje11yfish[/136.232.19.2:8460] logged in with entity id 86777 at ([world]296.0616687622745, 64.30837401612628, 4.081302666197012)
+[09:29:53] [User Authenticator #16/INFO]: UUID of player Kailash  is 11eb6f74-6fa3-3132-803b-82e5f4f37667
+[09:29:53] [Server thread/INFO]: Kailash  joined the game
+[09:29:53] [Server thread/INFO]: Kailash [/136.232.19.2:49872] logged in with entity id 87314 at ([world]290.0745029809979, 64.0, 0.7788210111909131)
+[09:32:14] [Server thread/INFO]: Kailash  was slain by Piglin
+[09:33:00] [Server thread/INFO]: Rudeje11yfish was slain by Zombie
+[09:34:24] [Server thread/INFO]: Rudeje11yfish lost connection: Disconnected
+[09:34:24] [Server thread/INFO]: Rudeje11yfish left the game
+[09:39:05] [User Authenticator #17/INFO]: UUID of player Rudeje11yfish is 1c1a60c4-c97d-398e-9b6e-f8cf871f7a9c
+[09:39:05] [Server thread/INFO]: Rudeje11yfish joined the game
+[09:39:05] [Server thread/INFO]: Rudeje11yfish[/136.232.19.2:50656] logged in with entity id 88827 at ([world]274.12783314460575, 66.0, -21.989586312452854)
+[09:45:36] [Server thread/INFO]: Rudeje11yfish was slain by Piglin
+[09:46:55] [Server thread/INFO]: Rudeje11yfish was slain by Piglin
+[09:46:58] [Server thread/INFO]: Kailash  was slain by Piglin
+[09:47:22] [Server thread/INFO]: Rudeje11yfish was slain by Piglin
+[10:24:36] [Server thread/INFO]: Rudeje11yfish lost connection: Disconnected
+[10:24:36] [Server thread/INFO]: Rudeje11yfish left the game
+[10:24:36] [Server thread/INFO]: Kailash  lost connection: Disconnected
+[10:24:36] [Server thread/INFO]: Kailash  left the game
+[10:24:41] [User Authenticator #18/INFO]: UUID of player Rudeje11yfish is 1c1a60c4-c97d-398e-9b6e-f8cf871f7a9c
+[10:24:41] [Server thread/INFO]: Rudeje11yfish joined the game
+[10:24:41] [Server thread/INFO]: Rudeje11yfish[/136.232.19.2:1335] logged in with entity id 96897 at ([world]297.30000001192093, -52.0, -477.5264912432044)
+[10:24:49] [User Authenticator #18/INFO]: UUID of player Kailash  is 11eb6f74-6fa3-3132-803b-82e5f4f37667
+[10:24:50] [Server thread/INFO]: Kailash  joined the game
+[10:24:50] [Server thread/INFO]: Kailash [/136.232.19.2:3145] logged in with entity id 96935 at ([world]297.69999998807907, -52.0, -478.16290974234596)
+[10:35:22] [Server thread/INFO]: Rudeje11yfish has made the advancement [A Seedy Place]
+[10:35:26] [Server thread/INFO]: Kailash  has made the advancement [A Seedy Place]
+[10:49:58] [User Authenticator #19/INFO]: UUID of player PhunkySand is 5deab05d-cc3a-317a-815a-02b1d6c06230
+[10:49:58] [Server thread/INFO]: PhunkySand joined the game
+[10:49:58] [Server thread/INFO]: PhunkySand[/43.231.211.64:59579] logged in with entity id 102636 at ([world]2.5, 67.0, -3.5)
+[10:51:53] [Async Chat Thread - #2/INFO]: <Rudeje11yfish> 300 y 10 tira auu na
+[10:53:23] [Server thread/WARN]: PhunkySand moved too quickly! 6.07838971036864,0.0,8.12525887465781
+[10:53:49] [Server thread/INFO]: Kailash  has made the advancement [The Parrots and the Bats]
+[10:53:54] [Server thread/INFO]: PhunkySand has made the advancement [Suit Up]
+[10:54:54] [Server thread/WARN]: PhunkySand moved too quickly! -9.787487261680667,-1.0,2.7620474685097385
+[10:55:09] [Async Chat Thread - #3/INFO]: <Rudeje11yfish> lag garirako xa ?
+[10:55:24] [Async Chat Thread - #3/INFO]: <PhunkySand> halka halka net le garda hola mero
+[10:55:39] [Async Chat Thread - #3/INFO]: <Rudeje11yfish> eh lala
+[10:57:38] [Server thread/INFO]: PhunkySand has made the advancement [Acquire Hardware]
+[10:57:48] [Server thread/INFO]: PhunkySand has made the advancement [Isn't It Iron Pick]
+[11:00:03] [Server thread/INFO]: PhunkySand has made the advancement [Stone Age]
+[11:08:18] [User Authenticator #20/INFO]: UUID of player PhunkySand is 5deab05d-cc3a-317a-815a-02b1d6c06230
+[11:08:18] [Server thread/INFO]: PhunkySand lost connection: You logged in from another location
+[11:08:18] [Server thread/INFO]: PhunkySand left the game
+[11:08:18] [Server thread/INFO]: PhunkySand joined the game
+[11:08:18] [Server thread/INFO]: PhunkySand[/43.231.211.64:27169] logged in with entity id 109459 at ([world]408.01141179844615, 55.0, 208.7414201926523)
+[11:11:11] [Server thread/INFO]: PhunkySand has made the advancement [Monster Hunter]
+[11:15:54] [Server thread/INFO]: PhunkySand has made the advancement [A Seedy Place]
+[11:17:51] [Server thread/INFO]: PhunkySand has made the advancement [The Parrots and the Bats]
+[11:24:57] [Server thread/INFO]: Kailash  lost connection: Disconnected
+[11:24:57] [Server thread/INFO]: Kailash  left the game
+[11:24:57] [Server thread/INFO]: Rudeje11yfish lost connection: Disconnected
+[11:24:57] [Server thread/INFO]: Rudeje11yfish left the game
+[11:25:05] [User Authenticator #21/INFO]: UUID of player Kailash  is 11eb6f74-6fa3-3132-803b-82e5f4f37667
+[11:25:05] [Server thread/INFO]: Kailash  joined the game
+[11:25:05] [Server thread/INFO]: Kailash [/136.232.19.2:41359] logged in with entity id 114613 at ([world_nether]42.405526513505805, 70.0, -17.35139026035564)
+[11:25:09] [User Authenticator #21/INFO]: UUID of player Rudeje11yfish is 1c1a60c4-c97d-398e-9b6e-f8cf871f7a9c
+[11:25:09] [Server thread/INFO]: Rudeje11yfish joined the game
+[11:25:09] [Server thread/INFO]: Rudeje11yfish[/136.232.19.2:5043] logged in with entity id 114631 at ([world_nether]38.58764602284007, 72.875, -35.00155326428349)
+[11:27:17] [User Authenticator #22/INFO]: UUID of player BoredPepper is 3e5fce69-6437-313c-a978-2b2802896076
+[11:27:18] [Server thread/INFO]: BoredPepper joined the game
+[11:27:18] [Server thread/INFO]: BoredPepper[/27.34.22.102:45172] logged in with entity id 115281 at ([world_nether]34.00735614888056, 51.0, 12.578028583986814)
+[11:27:29] [Async Chat Thread - #4/INFO]: <BoredPepper> discord
+[11:30:38] [Server thread/INFO]: BoredPepper has made the advancement [A Seedy Place]
+[11:31:28] [Server thread/INFO]: BoredPepper has made the advancement [Ice Bucket Challenge]
+[11:31:37] [Server thread/INFO]: Kailash  was slain by Wither Skeleton
+[11:32:41] [Async Chat Thread - #5/INFO]: <BoredPepper> drish lai pani invite gara la
+[11:33:12] [Async Chat Thread - #5/INFO]: <PhunkySand> okayy
+[11:33:27] [Async Chat Thread - #5/INFO]: <BoredPepper> discord?
+[11:33:40] [Async Chat Thread - #5/INFO]: <PhunkySand> off janxu ma aba ekchin
+[11:33:46] [Async Chat Thread - #5/INFO]: <PhunkySand> rati
+[11:33:47] [Async Chat Thread - #5/INFO]: <BoredPepper> eh okay
+[11:34:55] [Server thread/INFO]: PhunkySand has made the advancement [Sweet Dreams]
+[11:35:59] [Server thread/INFO]: BoredPepper has made the advancement [The Parrots and the Bats]
+[11:37:17] [Server thread/INFO]: Kailash  lost connection: Disconnected
+[11:37:17] [Server thread/INFO]: Kailash  left the game
+[11:37:42] [Server thread/INFO]: PhunkySand lost connection: Disconnected
+[11:37:42] [Server thread/INFO]: PhunkySand left the game
+[11:39:45] [Server thread/INFO]: Rudeje11yfish was slain by Piglin
+[11:40:30] [Server thread/INFO]: Rudeje11yfish was shot by Piglin
+[11:44:07] [Server thread/INFO]: Rudeje11yfish has made the advancement [The Parrots and the Bats]
+[11:49:50] [Server thread/INFO]: BoredPepper has made the advancement [Fishy Business]
+[11:51:25] [Server thread/INFO]: Rudeje11yfish has made the advancement [Fishy Business]
+[11:51:55] [Server thread/INFO]: BoredPepper has made the advancement [Tactical Fishing]
+[11:52:19] [Server thread/INFO]: Rudeje11yfish has made the advancement [Tactical Fishing]
+[12:03:03] [User Authenticator #23/INFO]: UUID of player Kailash  is 11eb6f74-6fa3-3132-803b-82e5f4f37667
+[12:03:03] [Server thread/INFO]: Kailash  joined the game
+[12:03:03] [Server thread/INFO]: Kailash [/136.232.19.2:12961] logged in with entity id 126364 at ([world]286.5582678494631, 64.0, 3.9840571532168716)
+[12:05:08] [Server thread/WARN]: Boat (vehicle of Rudeje11yfish) moved wrongly! 0.25437397176358445
+[12:05:08] [Server thread/WARN]: Boat (vehicle of Rudeje11yfish) moved wrongly! 0.25437397176358445
+[12:05:08] [Server thread/WARN]: Boat (vehicle of Rudeje11yfish) moved wrongly! 0.25437397176358445
+[12:05:08] [Server thread/WARN]: Boat (vehicle of Rudeje11yfish) moved wrongly! 0.25437397176358445
+[12:05:08] [Server thread/WARN]: Boat (vehicle of Rudeje11yfish) moved wrongly! 0.25437397176358445
+[12:05:08] [Server thread/WARN]: Boat (vehicle of Rudeje11yfish) moved wrongly! 0.25437397176358445
+[12:05:08] [Server thread/WARN]: Boat (vehicle of Rudeje11yfish) moved wrongly! 0.25437397176358445
+[12:06:28] [Server thread/INFO]: Villager EntityVillager['Villager'/128029, uuid='b9bf5970-7f63-42af-957d-d035dcca935a', l='ServerLevel[world]', x=777.63, y=114.00, z=-767.72, cpos=[48, -48], tl=191, v=true] died, message: 'Villager suffocated in a wall'
+[12:09:55] [Server thread/INFO]: Kailash  has made the advancement [Fishy Business]
+[12:16:56] [Server thread/INFO]: BoredPepper has made the advancement [Eye Spy]
+[12:17:05] [Server thread/INFO]: Rudeje11yfish fell from a high place
+[12:25:28] [Server thread/INFO]: Villager EntityVillager['Villager'/143993, uuid='618dcc78-7e17-40f7-92ab-73aba785976c', l='ServerLevel[world]', x=1320.37, y=65.00, z=-182.28, cpos=[82, -12], tl=191, v=true] died, message: 'Villager suffocated in a wall'
+[12:25:33] [Server thread/INFO]: Villager EntityVillager['Villager'/144067, uuid='3ec8df6c-8aba-4ae1-9283-a7070855b317', l='ServerLevel[world]', x=1315.07, y=64.00, z=-198.37, cpos=[82, -13], tl=191, v=true] died, message: 'Villager suffocated in a wall'
+[12:25:33] [Server thread/INFO]: Villager EntityVillager['Villager'/144068, uuid='47b6855f-cbbb-4235-978a-9e33c50f3b06', l='ServerLevel[world]', x=1316.63, y=64.00, z=-194.07, cpos=[82, -13], tl=191, v=true] died, message: 'Villager suffocated in a wall'
+[12:30:23] [Server thread/INFO]: Rudeje11yfish has made the advancement [Eye Spy]
+[12:33:16] [Async Chat Thread - #6/INFO]: <Kailash > X=37.72 Y=58 Z=2.95
+[13:00:32] [Server thread/INFO]: Kailash  lost connection: Disconnected
+[13:00:32] [Server thread/INFO]: Kailash  left the game
+[13:04:59] [Server thread/INFO]: BoredPepper lost connection: Disconnected
+[13:04:59] [Server thread/INFO]: BoredPepper left the game
+[13:05:01] [User Authenticator #24/INFO]: UUID of player BoredPepper is 3e5fce69-6437-313c-a978-2b2802896076
+[13:05:01] [Server thread/INFO]: BoredPepper joined the game
+[13:05:01] [Server thread/INFO]: BoredPepper[/27.34.22.102:47050] logged in with entity id 158003 at ([world]288.9818693686434, 64.0, 14.229463490594824)
+[13:19:24] [Server thread/INFO]: Rudeje11yfish lost connection: Disconnected
+[13:19:24] [Server thread/INFO]: Rudeje11yfish left the game
+[13:46:51] [Server thread/INFO]: BoredPepper issued server command: /skin urlhttps://www.minecraftskins.com/uploads/skins/2012/09/02/skin_2012090216522662893.png?v437\
+[13:47:03] [Server thread/INFO]: BoredPepper issued server command: /skin https://www.minecraftskins.com/uploads/skins/2012/09/02/skin_2012090216522662893.png?v437
+[13:47:38] [Server thread/INFO]: BoredPepper lost connection: Disconnected
+[13:47:38] [Server thread/INFO]: BoredPepper left the game
+[14:56:53] [User Authenticator #25/INFO]: UUID of player Rudeje11yfish is 1c1a60c4-c97d-398e-9b6e-f8cf871f7a9c
+[14:56:53] [Server thread/INFO]: Rudeje11yfish joined the game
+[14:56:53] [Server thread/INFO]: Rudeje11yfish[/136.232.19.2:31132] logged in with entity id 164104 at ([world]290.8124398190255, 64.0, 6.0686579146779485)
+[14:57:17] [User Authenticator #25/INFO]: UUID of player BoredPepper is 3e5fce69-6437-313c-a978-2b2802896076
+[14:57:17] [Server thread/INFO]: BoredPepper joined the game
+[14:57:17] [Server thread/INFO]: BoredPepper[/27.34.22.102:8037] logged in with entity id 164324 at ([world]292.81209755438334, 64.0, 2.3813564023061424)
+[15:11:14] [Server thread/INFO]: BoredPepper has made the advancement [Those Were the Days]
+[15:11:17] [Server thread/INFO]: Rudeje11yfish has made the advancement [Those Were the Days]
+[15:12:24] [Server thread/INFO]: BoredPepper has made the advancement [War Pigs]
+[15:12:27] [Server thread/INFO]: BoredPepper has made the advancement [Who is Cutting Onions?]
+[15:14:59] [Server thread/INFO]: BoredPepper was slain by Piglin
+[15:15:01] [Server thread/INFO]: Rudeje11yfish was slain by Piglin Brute
+[15:17:19] [Server thread/INFO]: Rudeje11yfish was slain by Piglin
+[15:24:09] [Server thread/INFO]: BoredPepper was slain by Piglin
+[15:25:39] [Server thread/INFO]: BoredPepper was shot by Skeleton
+[15:26:49] [Server thread/INFO]: BoredPepper was shot by Skeleton
+[16:29:35] [Server thread/INFO]: BoredPepper lost connection: Disconnected
+[16:29:35] [Server thread/INFO]: BoredPepper left the game
+[16:30:10] [Server thread/INFO]: Rudeje11yfish lost connection: Disconnected
+[16:30:10] [Server thread/INFO]: Rudeje11yfish left the game
