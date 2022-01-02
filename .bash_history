@@ -47,3 +47,26 @@ cd ..
 ls
 cd plugins
 ls
+git status
+git add .
+git commit -m "converted to papermc"
+git push -u origin master
+git status
+s
+ls
+screen -list
+screeen -r 16934
+screen -r 16934
+screen -list
+ls
+cat logs
+cd logs
+;s
+ls
+git status
+git add .
+git commit -m "backup 1.1.11.52"
+git status
+git commit -m "backup 1.1.11.52"
+git push -u origin master
+screen -list
