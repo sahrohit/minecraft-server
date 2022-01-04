@@ -70,3 +70,9 @@ git status
 git commit -m "backup 1.1.11.52"
 git push -u origin master
 screen -list
+ls
+git status
+git add .
+git commit -m "backup 1.2.20.13"
+git push -u origin master
+ls
