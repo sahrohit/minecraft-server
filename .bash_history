@@ -89,3 +89,9 @@ ls
 git remote add origin https://github.com/sahrohit/minecraft-server.git
 git branch
 git push -u origin master
+ls
+git add.  
+git add .
+git commit -m "backup 1.5.12.47"
+git push -u origin master
+ls
