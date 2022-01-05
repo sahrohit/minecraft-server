@@ -76,3 +76,16 @@ git add .
 git commit -m "backup 1.2.20.13"
 git push -u origin master
 ls
+screen -list
+git status
+git add . 
+git commit -m "backup 1.4.11.18"
+git push -u origin master
+git remote 
+git remote remove origin
+git remote 
+git log
+ls
+git remote add origin https://github.com/sahrohit/minecraft-server.git
+git branch
+git push -u origin master
