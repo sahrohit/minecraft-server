@@ -1,18 +1,19 @@
-[13:59:13] [User Authenticator #30/INFO]: UUID of player BoredPepper is 3e5fce69-6437-313c-a978-2b2802896076
-[13:59:13] [Server thread/INFO]: BoredPepper joined the game
-[13:59:13] [Server thread/INFO]: BoredPepper[/27.34.22.102:43727] logged in with entity id 183703 at ([world]291.36518867002934, 64.0, 7.370349849806264)
-[14:02:06] [User Authenticator #31/INFO]: UUID of player drish is df850743-c940-32cc-a93f-886e26de1a4e
-[14:02:06] [Server thread/INFO]: drish joined the game
-[14:02:06] [Server thread/INFO]: drish[/27.34.20.105:8363] logged in with entity id 184676 at ([world]2.5, 67.0, -5.5)
-[14:20:05] [Server thread/INFO]: drish has made the advancement [Stone Age]
-[14:26:50] [Server thread/INFO]: drish has made the advancement [Getting an Upgrade]
-[14:38:43] [Server thread/INFO]: drish has made the advancement [Acquire Hardware]
-[14:39:46] [Server thread/INFO]: drish has made the advancement [Suit Up]
-[14:42:06] [Server thread/INFO]: drish has made the advancement [Sweet Dreams]
-[14:45:21] [Server thread/INFO]: drish has made the advancement [We Need to Go Deeper]
-[14:55:27] [Server thread/INFO]: drish has made the advancement [Monster Hunter]
-[14:55:28] [Server thread/INFO]: drish was slain by Zombie
-[15:04:48] [Server thread/INFO]: BoredPepper lost connection: Disconnected
-[15:04:48] [Server thread/INFO]: BoredPepper left the game
-[15:07:48] [Server thread/INFO]: drish lost connection: Disconnected
-[15:07:48] [Server thread/INFO]: drish left the game
+[04:44:54] [Server thread/INFO]: Stopping the server
+[04:44:54] [Server thread/INFO]: Stopping server
+[04:44:54] [Server thread/INFO]: [DropHeads] Disabling DropHeads v3.6.14
+[04:44:54] [Server thread/INFO]: [OnePlayerSleep] Disabling OnePlayerSleep v1.3
+[04:44:54] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.1.10
+[04:44:54] [Server thread/INFO]: [SpigotPing] Disabling SpigotPing v2.6
+[04:44:54] [Server thread/INFO]: [SpigotPing] Cancelling tasks...
+[04:44:54] [Server thread/INFO]: Saving players
+[04:44:54] [Server thread/INFO]: Saving worlds
+[04:44:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:44:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[04:44:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[04:44:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:44:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:44:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:44:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:44:55] [Server thread/INFO]: Flushing Chunk IO
+[04:44:55] [Server thread/INFO]: Closing Thread Pool
+[04:44:55] [Server thread/INFO]: Closing Server

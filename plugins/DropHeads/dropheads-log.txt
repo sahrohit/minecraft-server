@@ -1,1 +1,4 @@
 1640948517167,mob decapitated,Sheep,PhunkySand,[item.minecraft.iron_axe]
+1641482802082,mob decapitated,Horse,PhunkySand,[item.minecraft.iron_axe]
+1641484167482,player decapitated,Rudeje11yfish,BoredPepper,[item.minecraft.diamond_sword]
+1641484196233,player decapitated,Rudeje11yfish,BoredPepper,[item.minecraft.diamond_sword]

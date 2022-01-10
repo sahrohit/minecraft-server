@@ -95,3 +95,10 @@ git add .
 git commit -m "backup 1.5.12.47"
 git push -u origin master
 ls
+screen -list
+screen -r 16934
+screen -list
+git add .
+git commit -m "backup 1.6.1.2"
+git push -u origin master
+ls
